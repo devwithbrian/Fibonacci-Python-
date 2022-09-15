@@ -1,0 +1,6 @@
+A Python function for calculating the xth term of the Fibonacci sequence
+#Math
+def myFib(x):
+ r = 5**(0.5)
+ x = (1/r)*(((1 + r)*(0.5))**(x)-((1 - r)*(0.5))**(x))
+ print(int(x))
