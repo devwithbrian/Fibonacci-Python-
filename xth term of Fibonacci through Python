@@ -3,4 +3,4 @@ A Python function for calculating the xth term of the Fibonacci sequence
 def myFib(x):
  r = 5**(0.5)
  x = (1/r)*(((1 + r)*(0.5))**(x)-((1 - r)*(0.5))**(x))
- return int(x)
+ print(int(x))
